@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,200;1,300;1,400;1,500;1,600&family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400;1,500&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,200;1,300;1,400;1,500;1,600&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.clipPat {
+  clip-path: polygon(0 0, 100% 0, 100% 52%, 0 100%);
+}
+.btnGradient {
+  background: linear-gradient(264.88deg, #22a2ff -16.25%, #5abaff 89.22%),
+    linear-gradient(0deg, rgba(48, 168, 255, 0.13), rgba(48, 168, 255, 0.13));
+}
+.bgForm{
+  background-color: rgba(255, 251, 251, 0.93);;
+}
